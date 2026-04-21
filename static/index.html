@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinguaBridge | AI‑Powered Multilingual Translation</title>
+    <meta name="description" content="Translate text across 200+ languages instantly with Meta's NLLB-200. Fast, private, and premium AI translation." />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="LinguaBridge | AI Translation">
+    <meta property="og:description" content="Break every language barrier with Meta's NLLB-200.">
+    <meta property="og:image" content="/static/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <!-- Animated Background Orbs -->
+    <div class="bg-orbs" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#" class="logo" id="logo-link">
+                <span class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <circle cx="16" cy="16" r="15" stroke="url(#logo-grad)" stroke-width="2"/>
+                        <path d="M10 16C10 12 12 8 16 8C20 8 22 12 22 16C22 20 20 24 16 24" stroke="url(#logo-grad)" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M8 13H24M8 19H24" stroke="url(#logo-grad)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0" y1="0" x2="32" y2="32">
+                                <stop stop-color="#818cf8"/>
+                                <stop offset="1" stop-color="#c084fc"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="logo-text">LinguaBridge</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features" class="nav-link" id="nav-features">Features</a>
+                <a href="#how-it-works" class="nav-link" id="nav-how">How It Works</a>
+                <a href="#translator" class="nav-link nav-link-cta" id="nav-translate">Start Translating</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge" id="hero-badge">
+                <span class="badge-dot"></span>
+                Powered by Meta NLLB‑200
+            </div>
+            <h1 class="hero-title" id="hero-title">
+                Break Every<br/>
+                <span class="gradient-text">Language Barrier</span>
+            </h1>
+            <p class="hero-subtitle" id="hero-subtitle">
+                Translate across <strong>200+ languages</strong> with state‑of‑the‑art AI.
+                From Hindi to Zulu, from Arabic to Yoruba — communicate without limits.
+            </p>
+            <div class="hero-actions">
+                <a href="#translator" class="btn btn-primary" id="hero-cta">
+                    <span>Try It Now</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#how-it-works" class="btn btn-ghost" id="hero-learn">Learn More</a>
+            </div>
+            <!-- Floating language tags -->
+            <div class="floating-langs" aria-hidden="true">
+                <span class="float-tag ft-1">हिन्दी</span>
+                <span class="float-tag ft-2">العربية</span>
+                <span class="float-tag ft-3">中文</span>
+                <span class="float-tag ft-4">Español</span>
+                <span class="float-tag ft-5">Français</span>
+                <span class="float-tag ft-6">日本語</span>
+                <span class="float-tag ft-7">한국어</span>
+                <span class="float-tag ft-8">Deutsch</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-container">
+            <h2 class="section-title" id="features-title">Why <span class="gradient-text">LinguaBridge</span>?</h2>
+            <p class="section-desc">Built on Meta's No Language Left Behind research — one of the most ambitious translation projects ever undertaken.</p>
+            <div class="features-grid">
+                <div class="feature-card" id="feature-languages">
+                    <div class="feature-icon fi-globe">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/>
+                        </svg>
+                    </div>
+                    <h3>200+ Languages</h3>
+                    <p>From widely spoken languages to endangered ones — NLLB covers them all with remarkable accuracy.</p>
+                </div>
+                <div class="feature-card" id="feature-ai">
+                    <div class="feature-icon fi-zap">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <h3>AI‑Powered</h3>
+                    <p>Leveraging a 600M‑parameter seq‑to‑seq transformer for contextual, natural translations.</p>
+                </div>
+                <div class="feature-card" id="feature-speed">
+                    <div class="feature-icon fi-clock">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>GPU‑accelerated inference delivers translations in under a second, even for complex sentences.</p>
+                </div>
+                <div class="feature-card" id="feature-privacy">
+                    <div class="feature-icon fi-shield">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <p>All translations happen on‑device. Your text never leaves your infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-container">
+            <h2 class="section-title" id="hiw-title">How It <span class="gradient-text">Works</span></h2>
+            <div class="steps">
+                <div class="step" id="step-1">
+                    <div class="step-num">01</div>
+                    <div class="step-content">
+                        <h3>Enter Your Text</h3>
+                        <p>Type or paste any text you want to translate — sentences, paragraphs, or full documents.</p>
+                    </div>
+                </div>
+                <div class="step-connector" aria-hidden="true"></div>
+                <div class="step" id="step-2">
+                    <div class="step-num">02</div>
+                    <div class="step-content">
+                        <h3>Choose Your Language</h3>
+                        <p>Select from 200+ target languages — search by name for quick access.</p>
+                    </div>
+                </div>
+                <div class="step-connector" aria-hidden="true"></div>
+                <div class="step" id="step-3">
+                    <div class="step-num">03</div>
+                    <div class="step-content">
+                        <h3>Get Your Translation</h3>
+                        <p>Our AI model processes your text and returns a natural, contextual translation in milliseconds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Translator Section -->
+    <section class="translator" id="translator">
+        <div class="section-container">
+            <h2 class="section-title" id="translator-title">Start <span class="gradient-text">Translating</span></h2>
+            <p class="section-desc">Experience the power of NLLB‑200 right here. Enter your text, choose a language, and go.</p>
+
+            <div class="translator-card" id="translator-card">
+                <!-- Source Panel -->
+                <div class="trans-panel source-panel">
+                    <div class="panel-header">
+                        <span class="panel-label">Source Text</span>
+                        <span class="lang-badge" id="source-lang-badge">English (Auto‑detect)</span>
+                    </div>
+                    <textarea
+                        id="source-text"
+                        class="trans-textarea"
+                        placeholder="Type or paste your text here…"
+                        rows="7"
+                        maxlength="5000"
+                        aria-label="Source text to translate"
+                    ></textarea>
+                    <div class="panel-footer">
+                        <span class="char-count" id="char-count">0 / 5,000</span>
+                        <div class="panel-actions">
+                            <button class="btn-icon" id="speak-source-btn" title="Listen to source text" aria-label="Listen to source text">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                </svg>
+                            </button>
+                            <button class="btn-icon" id="clear-btn" title="Clear text" aria-label="Clear text">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swap / Translate Button Column -->
+                <div class="trans-controls">
+                    <button class="btn-icon swap-btn" id="swap-btn" title="Swap languages" aria-label="Swap languages">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="17 10 21 14 17 18"/><path d="M3 14h18"/><polyline points="7 14 3 10 7 6"/><path d="M21 10H3"/>
+                        </svg>
+                    </button>
+                    <div class="control-divider"></div>
+                    <button class="translate-btn" id="translate-btn" aria-label="Translate text">
+                        <svg class="translate-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12 5 19 12 12 19"/>
+                        </svg>
+                        <span class="translate-label">Translate</span>
+                        <div class="spinner" id="translate-spinner" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+                <!-- Target Panel -->
+                <div class="trans-panel target-panel">
+                    <div class="panel-header">
+                        <span class="panel-label">Translation</span>
+                        <div class="lang-selector-wrap">
+                            <input
+                                type="text"
+                                id="lang-search"
+                                class="lang-search"
+                                placeholder="Search languages…"
+                                autocomplete="off"
+                                aria-label="Search languages"
+                            />
+                            <select id="target-lang" class="lang-select" aria-label="Target language">
+                                <!-- Populated by JS -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="trans-output" id="output-text" aria-live="polite">
+                        <span class="placeholder-text">Your translation will appear here…</span>
+                    </div>
+                    <div class="panel-footer">
+                        <span class="output-info" id="output-info"></span>
+                        <div class="panel-actions">
+                            <button class="btn-icon" id="speak-target-btn" title="Listen to translation" aria-label="Listen to translation" style="display:none;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                </svg>
+                            </button>
+                            <button class="btn-icon" id="copy-btn" title="Copy translation" aria-label="Copy translation" style="display:none;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- History Panel -->
+            <div class="history-section" id="history-section" style="display:none;">
+                <h3 class="history-title">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                    Recent Translations
+                </h3>
+            <div class="app-status">
+                <div class="status-item">
+                    <span class="status-dot"></span>
+                    <span class="status-text">AI Model Engine Online</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Secure Inference:</span>
+                    <span class="status-value">Active</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-text">LinguaBridge</span>
+                <p>Breaking language barriers with AI.</p>
+            </div>
+            <div class="footer-meta">
+                <p>Built with <span class="heart">♥</span> using Meta NLLB‑200 & FastAPI</p>
+                <p class="footer-copy">&copy; 2026 LinguaBridge. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

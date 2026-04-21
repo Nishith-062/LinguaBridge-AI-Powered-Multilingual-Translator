@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# FastAPI / Uvicorn
+uvicorn-*.log
+
+# Environment variables
+.env
+
+# Transformers cache (if local)
+.cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
