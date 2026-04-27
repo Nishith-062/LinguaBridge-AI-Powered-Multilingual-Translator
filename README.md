@@ -75,5 +75,9 @@ genai/
 - **Hugging Face** for providing the infrastructure to easily integrate these models.
 
 ---
-Built with ❤️ by [Your Name/Org]
+## Contributors
+- Nishith.V
+- Saharsh.V
+- Srikanth.P
+Built with ❤️ 
 # LinguaBridge-AI-Powered-Multilingual-Translator
